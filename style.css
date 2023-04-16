@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=PT+Serif:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  background-color: #5446f5;
+  height: 30px;
+  display: grid;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.contact_list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.contact_item {
+  text-decoration: none;
+  color: #fff;
+  font-family: "PT Serif", serif;
+  font-size: 12px;
+}
+
+header {
+  font-family: "Cinzel", serif;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  height: 75px;
+  padding: 0 20px;
+}
+
+.logo_box {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5446f5;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5446f5;
+  font-weight: bold;
+}
