@@ -28,6 +28,8 @@
   font-size: 12px;
 }
 
+/***header*************************************/
+
 header {
   font-family: "Cinzel", serif;
   display: grid;
@@ -58,4 +60,50 @@ nav a {
   text-decoration: none;
   color: #5446f5;
   font-weight: bold;
+}
+
+/***hero*************************************/
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 730px;
+  background-color: #5446f5;
+  color: #fff;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #34bff4;
+  color: #fff;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.right-side img {
+  width: 1800px;
+  height: 677px;
+  object-fit: cover;
+  margin-top: 100px;
 }
